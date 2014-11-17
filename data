@@ -1,0 +1,130 @@
+V	radius	I(miA)	break V	break I(mA) direction
+		3.6	38.2	00.4
+3.00
+
+Vacuum Voltage:	3.0	kV
+Vacuum Current	15.5	microAmps
+Break Voltage:	28.6	V
+Break Current:	0.3	mA
+
+first ring
+30.47	WE
+30.14	WE
+30.4	NS
+30.01	NS
+29.39	NW-SE
+30.21	NW-SE
+28.88	NE-SW
+29.42	NE-SW
+
+second ring
+51.12	EW
+50,70	EW
+52.21	NS
+50.14	NS
+50.53	NW-SE
+52.58	NW-SE
+53.06	NE-SW
+52.39	NE-SW
+
+
+Vacuum Voltage:	3.5	kV
+Vacuum Current:	3.6	micro Amps
+Break Voltage:	38.2	Volts
+Break Current:	.4	mA
+
+kV	mm	direction
+first ring
+3.50	27.89	WE
+3.50	27.25	WE
+3.50	27.5	NS
+3.50	28.77	NS
+3.50	28.37	NW-SE
+3.50	28.32	NW-SE
+3.50	27.88	SW-NE
+3.50	28.16	SW-NE
+
+second ring
+3.50	46.08	WE
+3.50	45.85	WE
+3.50	47.47	NS
+3.50	47.14	NS
+3.50	47.37	NW-SE
+3.50	48.17	NW-SE
+3.50	46.66	SW-NE
+3.50	47.21	SW-NE
+
+Break Voltage:	42.6
+Break Current:	.4mA
+Vacuum Voltage: 4.00 kV
+Vacuum Current:	3.8microA
+
+first ring
+4.00	25.98	WE
+4.00	26.85	WE
+4.00	26.22	NS
+4.00	26.13	NS
+4.00	24.68	NW-SE
+4.00	25.06	NW-SE
+4.00	24.59	SW-NE
+4.00	24.80	SW-NE
+
+second ring
+4.00	42.99	WE
+4.00	42.92	WE
+4.00	44.34	NS
+4.00	45.82	NS
+4.00	44.40	NW-SE
+4.00	46.07	NW-SE
+4.00	43.20	SW-NE
+4.00	43.85	SW-NE
+
+Break Voltage:	42.7 V
+Break Current:	00.4mA
+Vacuum Voltage:	4.50 kV
+Vacuum Current:	13.2microA
+
+first ring
+24.52	WE
+24.40	WE
+24.82	NS
+23.97	NS
+24.28	NW-SE
+24.16	NW-SE
+24.51	SW-NE
+23.40	SW-NE
+
+second ring
+40.46	WE
+41.18	WE
+41.86	NS
+40.45	NS
+42.1	NW-SE
+40.5	NW-SE
+41.05	SW-NE
+50.68	SW-NE
+
+Vacuum Voltage:	5.00k V
+Vacuum Current:	6.0 microA
+Break Voltage:	50.4 V
+Break Current:	.5 mA
+
+first ring
+23.11	WE
+23.26	WE
+23.19	NS
+22.70	NS
+22.75	NW-SE
+22.32	NW-SE
+22.98	SW-NE
+22.34	SW-NE
+
+second ring
+38.50	WE
+38.73	WE
+38.11	NS
+39.22	NS
+39.46	NW-SE
+38.43	NW-SE
+38.70	SW-NE
+37.57	SW-NE

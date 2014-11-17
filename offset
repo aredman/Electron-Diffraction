@@ -1,0 +1,20 @@
+kV	from	offset(mm)	method
+3.00	W	40.1		head on
+3.00	E	41.76 		head on
+3.00	S	42.89 		head on
+3.00	N	39.37 		head on
+
+3.00	W	39.85		head on
+3.00	E	42.5		head on
+3.00	N	40.01		head on
+3.00	S	42.72		head on
+
+3.00	W	45.85		tan/sec
+3.00	E	46.22 		tan/sec
+3.00	S	43.77 		tan/sec
+3.00	N	47.22		tan/sec
+
+3.00	W	45.21		tan/sec
+3.00	E	45.91	  	tan/sec
+3.00	N	43.51		tan/sec
+3.00	S	48.38		tan/sec
