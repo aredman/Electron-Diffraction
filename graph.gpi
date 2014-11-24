@@ -1,0 +1,28 @@
+h = 6.626e-34
+n = 1
+m = 9.10938291e-31
+e = 1.602e-19
+L = 140
+
+set datafile separator ';'
+set terminal pdf size 8in,6in
+
+
+theory(V,d) = L * sqrt( (h*h / (4*d*d*m*e*V) - 1)**(-2) - 1)*1e3
+theory2(V,d) = n*h*L / (d*sqrt(2*m*e*V)) * 1e3
+
+D(d,L) = (L*d) / ( L/2 + sqrt( L**2 / 4 - d**2))
+
+set xrange [2800:5200]
+set yrange [0:]
+
+set output 'theory.pdf'
+set title('Potential vs Diffraction at L = 140mm')
+set xlabel('Potential (V)')
+set ylabel('D (mm)')
+set key 
+plot 'first.csv'  u 1:(D($2/2,140)):($4+2.12) title 'Inner Ring' with errorbars pt 7 ps .5 lc rgb '#0000AA' \
+    ,'second.csv' u 1:(D($2/2,140)):($4+2.12) title 'Outer Ring' with errorbars pt 7 ps .5 lc rgb '#AA0000' \
+    , theory2(x,0.231e-6) title 'd = 0.231nm' lc rgb '#0000AA' \
+    , theory2(x,0.123e-6) title 'd = 0.123nm' lc rgb '#AA0000'
+unset output
